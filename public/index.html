@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot - IBM Watson Assistant</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./javascripts/ibmWatson.js"></script>  
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+
+
+<body>
+    <h1>Baymax Chatbot</h1>
+    <div id="chat"></div>
+    <br>
+    <form id="centerize" name="chatForm" method="post">
+        <input id="textIn" type="text" size="100px" name="textMessage"/>
+        <input id="send" type="button" onclick="sendMessageToAssistant()" value="Enviar"/>
+    </form>
+    <br>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(231, 252, 255);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(75, 82, 87);
+  font-size: 80px;
+}
+
+#chat{
+  margin: auto;
+  background-color: rgb(75, 82, 87);
+  font-size: 16px;
+  width: 62.25%;
+  border: 1px solid #fff;
+  padding: 10px 0;
+  text-align: left;
+  color: rgb(227, 235, 243);
+  border-radius: 5px;
+}
+
+#textIn {
+  align-items: center;
+  background-color: rgb(132, 145, 155);
+  font-size: 16px;
+  width: 50%;
+  border: 0;
+  padding: 10px 0;
+  text-align: center;
+  color: rgb(227, 235, 243);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#centerize{
+  text-align: center;
+}
+
+#send {
+  align-items: center;
+  background-color: rgb(132, 145, 155);
+  font-size: 16px;
+  width: 12%;
+  border: 0;
+  padding: 10px 0;
+  text-align: center;
+  color: rgb(227, 235, 243);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+x{
+  color: rgb(75, 82, 87);
+}
